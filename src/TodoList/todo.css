@@ -1,0 +1,86 @@
+.right-aligned{
+  justify-content: flex-end;
+  margin-right:150px;
+  font-size:20px;
+}
+.right-aligned a{
+  margin-right:30px;
+}
+.todo-container{
+  max-width:80vh;
+  padding:1em 0.5em;
+  background-color:tomato;
+  margin: 10em auto;
+  border-radius: 15px;
+  text-align: center;
+}
+.todo-container h1{
+  color:white;
+  font-size:2rem;
+  text-align: center;
+}
+
+.add-task{
+  background-color: blanchedalmond;
+  padding:0.5em;
+  border-radius:1em;
+  border:2px solid yellow;
+}
+#t1{
+  font-size:1em;
+  font-weight: bold;
+  color:black;
+  background:white;
+  border-radius:1em;
+  padding:.48em;
+  margin:1em;
+  width:80%;
+  outline:none;
+  border:none;
+}
+#add-task-btn{
+  cursor: pointer;
+  transition: 0.3s all ease;
+  color:white;
+
+}
+
+.list-task{
+  /* position:relative;
+  padding:0.8em;
+  margin:0.5em;
+ 
+ 
+  color:black;
+  
+ 
+   */
+  font-size:1.25em;
+  font-weight: bold;
+  font-style: italic;
+  border:1px solid yellowgreen;
+  border-radius: 1em;
+  padding:0.5em;
+  padding-bottom:20px;
+  margin:0.5em auto;
+  min-width: 1em;
+  text-align: left;
+  position:relative;
+  background:yellow;
+
+}
+
+
+#list-task-btn{
+  border:none;
+  cursor:pointer;
+  margin:5px;
+  position:absolute;
+  right:1px;
+  top:3px;
+  padding:0.5em 1.2em;
+
+
+  
+
+}
